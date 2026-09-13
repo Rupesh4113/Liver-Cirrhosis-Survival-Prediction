@@ -1,0 +1,6 @@
+Model,CV Macro F1,Holdout Accuracy,Holdout Macro F1,Holdout Weighted F1,Holdout Macro Precision,Holdout Macro Recall,Holdout ROC-AUC (OvR),Death Recall,Censored Recall,Transplant Recall
+Logistic Regression,0.6114,0.6667,0.5248,0.6975,0.5412,0.5365,0.7747,0.75,0.6596,0.2
+Random Forest,0.6519,0.6786,0.4835,0.6891,0.4889,0.4807,0.7226,0.7188,0.7234,0.0
+Gradient Boosting,0.5874,0.6905,0.4745,0.6738,0.4621,0.4878,0.7184,0.7188,0.7447,0.0
+XGBoost,0.5868,0.6548,0.4497,0.6394,0.4377,0.4632,0.6561,0.6875,0.7021,0.0
+LightGBM,0.6373,0.619,0.43,0.6131,0.424,0.4386,0.7017,0.6562,0.6596,0.0

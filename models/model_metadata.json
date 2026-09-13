@@ -1,0 +1,47 @@
+{
+  "model_name": "Logistic Regression",
+  "training_date": "2026-09-13 11:24:22",
+  "best_hyperparameters": {
+    "classifier__C": 0.01
+  },
+  "target_mapping": {
+    "0": "Death",
+    "1": "Censored",
+    "2": "Transplant"
+  },
+  "features": {
+    "numeric": [
+      "Age",
+      "Bilirubin",
+      "Cholesterol",
+      "Albumin",
+      "Copper",
+      "Alk_Phos",
+      "SGOT",
+      "Triglycerides",
+      "Platelets",
+      "Prothrombin",
+      "Stage"
+    ],
+    "categorical": [
+      "Sex",
+      "Ascites",
+      "Hepatomegaly",
+      "Spiders",
+      "Edema"
+    ]
+  },
+  "split_config": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "cv_splits": 5
+  },
+  "evaluation_summary": {
+    "holdout_macro_f1": 0.5248389911220337,
+    "holdout_accuracy": 0.6666666666666666,
+    "death_recall": 0.75,
+    "censored_recall": 0.6595744680851063,
+    "transplant_recall": 0.2
+  },
+  "disclaimer": "This application is for research and educational purposes only. It is not a medical device, does not provide medical advice, and must not be used for diagnosis, treatment, prognosis, or clinical decision-making."
+}
